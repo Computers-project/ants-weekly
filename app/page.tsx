@@ -165,10 +165,11 @@ export default function Home() {
 
               <tbody>
                 {[
-                  ["Shivansh Patel", "Founder"],
-                  ["Amol Desai", "Co-founder / Editor"],
-                  ["Sheshadrinivas Chekuri", "Developer"],
+                  ["Shivansh Patel", "Founder / Editor"],
+                  ["Amol Desai", "Co-founder / Editor / Designer"],
+                  ["Sheshadrinivas Chekuri", "Developer / Designer"],
                   ["Praansh Sanghvi", "Designer"],
+                  ["Aarvi pandey", "Editor"],
                   ["Viaan Lohia", "Scout"],
                   ["Stephen Everett", "Scout"],
                   ["Meit Saboo", "Scout"],
