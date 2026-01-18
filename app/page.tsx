@@ -86,14 +86,14 @@ export default function Home() {
     <div className="w-full bg-background overflow-x-hidden">
       <section className="relative h-screen w-full flex items-center justify-center md:justify-start">
         <SvgBackground_hero height={1400} width={980} />
-        <div className="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-24 flex flex-col items-center md:items-start text-center md:text-left gap-4">
-          <h1 className="animate-text text-4xl md:text-6xl text-[#97ACC7] font-sofia italic font-medium">
+        <div className="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-24 flex flex-col items-center md:items-start text-center md:text-left gap-2">
+          <h1 className="animate-text text-5xl md:text-4xl text-[#97ACC7] font-sofia italic font-medium">
             ANTS WEEKLY
           </h1>
-          <h2 className="animate-text2 text-xl md:text-2xl text-[#627792] font-sofia italic font-extralight">
+          <h2 className="animate-text2 text-2xl md:text-xxl text-[#627792] font-sofia italic font-extralight">
             Get detailed information as deep as the sea
           </h2>
-          <div className="mt-8">
+          <div className="mt-2">
             <h3 className="text-lg md:text-xl text-[#005A87] font-sofia italic font-extralight mb-6">
               Share your experiences which we missed
             </h3>
@@ -115,7 +115,7 @@ export default function Home() {
       <section className="about-section relative min-h-screen w-full flex items-center justify-center px-6 md:px-24 py-20">
         <SvgBackground height={1200} width={1100} />
         <div className="relative z-10 max-w-3xl flex flex-col gap-8 text-center md:text-left">
-          <h2 className="about-text text-3xl md:text-5xl text-[#97ACC7] font-sofia italic">
+          <h2 className="about-text text-3xl md:text-4xl text-[#97ACC7] font-sofia italic">
             About ANTS Weekly
           </h2>
           <p className="text-[#627792] text-lg md:text-xl font-sofia font-light leading-relaxed">
@@ -143,7 +143,6 @@ export default function Home() {
             </p>
           </div>
 
-          {/* Table Container */}
           <div className="overflow-x-auto w-full rounded-lg shadow-2xl">
             <table className="w-full border-separate border-spacing-0 bg-[#00293D]/30 backdrop-blur-xl border border-[#5F7890]/20">
               <thead className="bg-[#5F7890]/20">
