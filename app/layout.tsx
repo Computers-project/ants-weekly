@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono,League_Spartan,Sofia_Sans_Semi_Condensed } from "next/font/google";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import "./globals.css";
 
 const geistSans = Geist({
@@ -39,7 +40,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${leagueSpartano.variable} ${sofiaSansSemiCondensed.variable} antialiased`}
       >
+
         {children}
+        <SpeedInsights/>
       </body>
     </html>
   );
